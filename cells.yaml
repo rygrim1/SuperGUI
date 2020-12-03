@@ -1,0 +1,39 @@
+
+#Set default atomic charges. Used to calculate the net charge of cleaved surfaces
+Charges :
+
+  H  : +1
+  Pb : +2
+  O  : -2
+  C  : +4
+
+#-----------------------------------------------------------------------------------------
+# Enter primitive cells in this format (Wyckoff letters or cell coordinates)
+# Spacing between items does not have to be consistent
+
+PbCO3 14:
+  Pb  4e  0.250  0.582  0.246
+  C   4e  0.250  0.238  0.088
+  O   4e  0.250  0.086  0.098
+  O   4e -0.033  0.815  0.409
+  O   4e  0.467  0.315  0.091
+
+PbO 129: 
+  Pb  0.250  0.250  0.233 
+  Pb  0.750  0.750 -0.233
+  O   0.750  0.250  0.000
+  O   0.250  0.750  0.000
+
+PbO 51:
+  Pb  8l  0.229  0.012  0.250
+  O   4h  0.135  0.407  0.250
+
+PbO 57:
+  Pb 4d 0.231 0.009 0.250
+  O  4d 0.139 0.412 0.250
+  
+PbCO3 62:
+  Pb 4c  0.245  0.250  0.583
+  C  4c  0.089  0.250  0.238
+  O  4c  0.099  0.250  0.086
+  O  8d  0.091  0.034  0.315
